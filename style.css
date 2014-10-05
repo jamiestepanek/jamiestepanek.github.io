@@ -1,9 +1,52 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  background-image:  url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRhQskF7xnQbVR_b97MkOsav7DmSxV9PtPbP-klsJBfsUL0lHThkIieazoh");
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
 }
 #wrapper {
+	
   width: 960px;
   margin: 20px auto;
+  padding: 20px;
+
+}
+
+h1 {
+	color: black;
+	font-size: 26px;
+
+}
+
+img {
+
+	height: 250px;
+	width: 200px;
+	float: right;
+	border: 5px solid blue;
+	border-radius: 9999999px;
+	box-shadow: 10px 10px 5px grey;
+
+}
+
+p {
+	line-height: 20px;
+}
+
+h2 {
+	color: purple;
+	font-style: italic;
+}
+
+a:hover {
+	color: red;
+}
+
+a {
+	color: grey;
+
 }
